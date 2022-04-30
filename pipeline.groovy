@@ -14,5 +14,13 @@ pipeline {
                 }
             }
         }
+        
+         stage( 'bloco de nota' ) {
+            steps {
+                script {
+                    echo 'fazer checkout bloco de nota'
+                  }
+                }
+             }
      }
 }
