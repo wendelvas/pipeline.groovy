@@ -22,5 +22,12 @@ pipeline {
                   }
                 }
              }
+         stage( 'teste' ) {
+            steps {
+                script {
+                    echo 'fazer checkout teste'
+                      }
+                  }
+               }
      }
 }
